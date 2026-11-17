@@ -1,0 +1,38 @@
+RivalsMacro 0.3.0.4 — 最初に読むファイル
+
+【これは何？】
+Python版の続きではなく、C# + WinUI 3で作り直す新しい開発ラインの最初のプロジェクトです。
+この版は「1.0完成版」ではなく、UI・設定・タイマーコアの土台です。
+
+【必要なもの】
+1. Windows 10/11 PC（Windows 11推奨）
+2. .NET 10 SDK
+3. Visual Studio 2026 の「WinUI application development」ワークロード
+4. Windows App SDK 2.6.5 Runtime
+
+【起動】
+1. ZIPを展開
+2. src/RivalsMacro.sln をVisual Studioで開く
+3. RivalsMacro.App をスタートアッププロジェクトにする
+4. x64 / Debug を選んで F5
+
+または、環境設定が済んでいる場合は run.bat を実行。
+
+ビルド前に verify-project.ps1 を実行し、テストとソリューション全体のビルドを行う場合は build.ps1 を実行してください。
+
+【この版で確認できること】
+- 新しいWinUI 3アプリの起動
+- Dark Glass / Minimal Dark / Cyber Gaming の切替
+- 4色のアクセント切替
+- HUDの別ウィンドウ表示
+- CLOCK A / CLOCK B のプレビュー計測
+- 設定JSON保存
+
+【まだ動かない機能】
+- ゲーム画面の実OCR・連続キャプチャ
+- ゲームへのキー・マウス入力
+- 実画面上での武器座標ピッカー
+- 実FFAの自動周回
+これらは次バージョンで段階的に接続します。
+
+起動時にエラーが出たら、run_debug.batを実行し、表示された全文を共有してください。

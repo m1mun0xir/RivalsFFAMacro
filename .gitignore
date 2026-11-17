@@ -1,0 +1,11 @@
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+startup_stdout.log
+startup_error.log
