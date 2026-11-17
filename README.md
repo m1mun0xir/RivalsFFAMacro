@@ -1,0 +1,2 @@
+# RivalsFFAMacro
+FFA Macro
